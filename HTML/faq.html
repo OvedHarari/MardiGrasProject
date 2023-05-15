@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAQ</title>
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <!-- main css (SASS) -->
+    <link rel="stylesheet" href="../SASS/main.css">
+    <!-- font awesome -->
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top nav-background ">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="/images/logo.png" alt="logo" width="80" height="80">
+            </a>
+            <button class="navbar-toggler " href="#offcanvasWithBothOptions" role="button" data-bs-toggle="offcanvas"
+                aria-controls="navbarSupportedContent">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="offcanvas offcanvas-start text-bg-dark " data-bs-scroll="true" tabindex="-1"
+                id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptions">
+                <div class="offcanvas-header">
+                    <a class="navbar-brand " href="#"><img src="/images/logo.png" alt="logo" width="80" height="80">
+                    </a>
+                </div>
+                <div class="offcanvas-body ">
+                    <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="/HTML/inbdex.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/HTML/about.html">Abut</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/HTML/media.html">Media</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active text-light" href="/HTML/faq.html">FAQ</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/HTML/contact.html">
+                                Contact Us
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- OLD navbar -->
+    <!--     <nav class="navbar navbar-expand-lg nav-background">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="/images/logo.png" alt="logo" width="80" height="80">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="/HTML/inbdex.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/HTML/about.html">Abut</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/HTML/media.html">Media</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active text-light" href="/HTML/faq.html">FAQ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="/HTML/contact.html">
+                            Contact Us
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled">Disabled</a>
+                </li>
+                </ul>
+            </div>
+        </div>
+    </nav> -->
+
+    <!-- Accordion -->
+    <div class="container container-accordion">
+        <h1>Visitor's FAQs</h1>
+        <br>
+        <div class="accordion " id="accordion">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                        Q: Is there an "official" Mardi Gras?
+                    </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                    data-bs-parent="#accordion">
+                    <div class="accordion-body">
+                        <strong>No!</strong>, Mardi Gras is a holiday, just like Christmas and Easter. <strong>It
+                            belongs
+                            to everyone.</strong> Do not believe the claims of
+                        businesses that offer "official" Mardi Gras merchandise or an "official" Mardi Gras website.
+                        <br>
+                        Using the term “official”
+                        is just a way for vendors to sell their products or services to those who do not know better.
+                        <br>
+                        Products or websites are
+                        not licensed by the government for Mardi Gras. Each individual parade krewe is responsible for
+                        all of its merchandise. <br>
+                        In some parts of the country, official organizations control their Mardi Gras celebration, but
+                        this is not true in New
+                        Orleans.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        Q: When does Mardi Gras start and end?
+                    </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                    data-bs-parent="#accordion">
+                    <div class="accordion-body">
+                        The Carnival season always begins on Jan. 6, which is King's Day (Feast of the Epiphany). Mardi
+                        Gras day (Fat Tuesday),
+                        however, is on a different day each year.
+                        <br><br>
+                        Fat Tuesday changes every year because Easter Sunday is never on the same Sunday each year. Fat
+                        Tuesday is always the
+                        day before Ash Wednesday.
+                        <br><br>
+                        Most visitors plan to arrive no later than the Saturday prior to Mardi Gras day and stay through
+                        Ash Wednesday. Check
+                        out our dates page to see when Fat Tuesday will fall through the next few years.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        Q: What is the weather usually like during Mardi Gras? What should I pack?
+                    </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                    data-bs-parent="#accordion">
+                    <div class="accordion-body">
+                        The weather during Mardi Gras can vary from very cold to very warm, almost hot. Sometimes it
+                        will change from one
+                        extreme to the other during the same day. It's a good idea to layer your clothes since a chilly
+                        morning may turn into a
+                        warm afternoon.
+                        <br><br>
+                        Since you will be spending long days outside, pack comfortable shoes and clothes that can get
+                        somewhat dirty. Don't
+                        forget to check the forecast for rain. If storms are predicted, then you'll definitely want to
+                        bring a raincoat!
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingFour">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                        Q: How much does it cost to go to Mardi Gras?
+                    </button>
+                </h2>
+                <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                    data-bs-parent="#accordion">
+                    <div class="accordion-body">
+                        It's free! Not only that, but you'll leave with bags of Mardi Gras beads and throws. That's why
+                        we call it the "Greatest
+                        Free Show on Earth!"
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingFive">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                        Q: I only have limited time. What is the prime time to visit during Mardi Gras?
+                    </button>
+                </h2>
+                <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
+                    data-bs-parent="#accordion">
+                    <div class="accordion-body">
+                        The weekend before Fat Tuesday is the prime time to visit New Orleans for Mardi Gras. This is
+                        the weekend when Bacchus
+                        and Endymion, two of the biggest parades of the season, roll down the streets of New Orleans.
+                        The streets are packed all
+                        day Saturday and Sunday with parade watchers. If you can stay longer than a weekend, Monday
+                        (Lundi Gras) and Fat Tuesday
+                        are also great days to experience Mardi Gras. Orpheus, another big parade, rolls on that Monday
+                        night, and the Zulu
+                        Lundi Gras festival goes on all day. On Fat Tuesday, walking around the French Quarter and
+                        seeing all of the costumes
+                        and masks is a unique and thrilling experience.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingSix">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                        Q: What is the weather usually like during Mardi Gras? What should I pack?
+                    </button>
+                </h2>
+                <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix"
+                    data-bs-parent="#accordion">
+                    <div class="accordion-body">
+                        The weather during Mardi Gras can vary from very cold to very warm, almost hot. Sometimes it
+                        will change from one
+                        extreme to the other during the same day. It's a good idea to layer your clothes since a chilly
+                        morning may turn into a
+                        warm afternoon.
+                        <br><br>
+                        Since you will be spending long days outside, pack comfortable shoes and clothes that can get
+                        somewhat dirty. Don't
+                        forget to check the forecast for rain. If storms are predicted, then you'll definitely want to
+                        bring a raincoat!
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingSeven">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                        Q: What happens if there is bad weather?
+                    </button>
+                </h2>
+                <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven"
+                    data-bs-parent="#accordion">
+                    <div class="accordion-body">
+                        The parades roll in light rain. The officials will only postpone if the weather is predicted to
+                        be severe. The local TV
+                        and radio news stations (such as WWL Radio) broadcast the hour-by-hour updates.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- footer -->
+    <footer class="site-footer">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-xs-6 col-md-3">
+                    <h6>Contact</h6>
+                    <div class="footer-left">
+
+                        <div>
+                            <i class="fa fa-map-marker"></i>
+                            <p>1300 Perdido St., New Orleans, LA 70112
+                            </p>
+                        </div>
+
+                        <div>
+                            <i class="fa fa-phone"></i>
+                            <p><a href="phoneto:(504) 658-4900">(504) 658-4900</a>
+                                <!-- <br>(504) 658-4900 -->
+                            </p>
+                        </div>
+
+                        <div>
+                            <i class="fa fa-envelope"></i>
+                            <p><a href="mailto:mayor@nola.gov">mayor@nola.gov</a></p>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="col-xs-6 col-md-3">
+                    <h6>Quick Links</h6>
+                    <ul class="footer-links">
+                        <li><a href="../HTML/inbdex.html">Home</a></li>
+                        <li><a href="../HTML/about.html">About</a></li>
+                        <li><a href="../HTML/contact.html">Contact Us</a></li>
+                        <li><a href="../HTML/media.html">Media</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-sm-12 col-md-6">
+                    <h6>About</h6>
+                    <p class="text-justify">Mardi Gras is about music, parades, picnics, floats and excitement. It's one
+                        big holiday in New Orleans! <br>
+
+                        Revelers know to wear costumes or at least dress in purple, green, and gold, and adorn
+                        themselves with long beads caught
+                        from the floats of previous parades. You'll see a lot of crazy costumes, kids with their
+                        families are everywhere, and
+                        both locals and visitors having a great time. Parade goers will sit on the ground, throw balls,
+                        play music, eat great
+                        food and watch the crowds walk by between parades. <br>
+                        Every year, we get a lot of questions about how it all begin, and how the traditions have
+                        changed. You can check our <a href="../HTML/about.html">About</a> page for additional info
+                        below to find out the answers to some of the most frequently asked questions.
+
+
+                    </p>
+                </div>
+            </div>
+            <hr>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 col-sm-6 col-xs-12">
+                    <p class="copyright-text">Copyright &copy; 2023 All Rights Reserved by
+                        <a href="https://www.linkedin.com/in/oved-harari-8960a178/" target="_blank">Oved Harari</a>.
+                    </p>
+                </div>
+
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <ul class="social-icons">
+                        <li><a class="facebook" href="https://www.facebook.com/MardiGrasNewOrleans" target="_blank"><i
+                                    class="fa fa-facebook"></i></a></li>
+                        <li><a class="twitter" href="https://twitter.com/MardiGrasNOLA" target="_blank"><i
+                                    class="fa fa-twitter"></i></a></li>
+                        <li><a class="instegram" href="https://www.instagram.com/mardigrasneworleans/"
+                                target="_blank"><i class="fa fa-youtube-play"></i></a></li>
+                        <li><a class="youtube" href="https://www.youtube.com/channel/UCOrq1qF6dVDn9Do-wvbKh0Q"
+                                target="_blank"><i class="fa fa-linkedin"></i></a></li>
+                        <!-- <li><a class="tripadvisor" href="https://www.tripadvisor.com/Profile/MardiGrasNOLA"
+                                                target="_blank"><i class="fa fa-tripadvisor" aria-hidden="true"></i></a></li> -->
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <!-- back to Top for Mobile -->
+    <a class="showInMobile" href="#top">
+        <img class="float" src="../images/back-to-top.svg" alt="back to top">
+    </a>
+
+    <!-- bootstrap js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
+        integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
+        crossorigin="anonymous"></script>
+    <!-- custom js -->
+    <script src="../JS/formValidation.js"></script>
+</body>
+
+</html>

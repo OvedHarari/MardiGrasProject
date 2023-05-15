@@ -1,0 +1,40 @@
+.paragraph-first {
+    margin-top: 100px;
+    padding: 45px 30px;
+    background-color: #9453a6;
+}
+
+.paragraph-general-dark {
+    /* margin-top: 100px; */
+    padding: 45px 40px;
+    background-color: #3f0f4dae;
+}
+
+.paragraph-general-light {
+    /* margin-top: 100px; */
+    padding: 45px 40px;
+    background-color: #9453a6;
+}
+
+.text {
+    font-size: 16pt;
+    text-align: justify;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+.pImageRight {
+    width: 400px;
+    height: 260px;
+    float: right;
+    border: 1px solid black;
+    margin: 12px 0px 12px 20px;
+}
+
+.pImageLeft {
+    width: 400px;
+    height: 260px;
+    float: left;
+    border: 1px solid black;
+    margin: 20px 12px 0px 0px;
+}

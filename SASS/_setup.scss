@@ -1,0 +1,69 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #b58ac1;
+}
+
+
+
+.container-main {
+    max-width: 100vw;
+    margin: auto;
+    margin-bottom: 50px;
+    margin-top: 125px;
+}
+
+h1 {
+    font-family: "Pattaya", "Henny Penny";
+    font-size: 80px;
+    text-align: center;
+    background: -webkit-linear-gradient(#f2f2f2, #f2cc0f);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 5px 5px 20px #f2f2f2;
+
+}
+
+// h2class non-bootstrap
+.h2class {
+    font-family: "Pattaya", "Henny Penny";
+    font-size: 50px;
+    text-align: center;
+    background: -webkit-linear-gradient(#f2f2f2, #f2cc0f);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 5px 5px 20px #f2f2f2;
+}
+
+h2 {
+    font-family: "Pattaya", "Henny Penny";
+}
+
+
+h3 {
+    font-family: "Pattaya", "Henny Penny";
+    font-size: 35px;
+    background: -webkit-linear-gradient(#f2f2f2, #8cbf3f);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 5px 5px 15px #000;
+
+}
+
+h5 {
+    font-size: 30px;
+    text-shadow: 5px 5px 15px #000;
+
+}
+
+
+
+@media (min-width: 767px) {
+    .showInMobile {
+        display: none;
+    }
+}
