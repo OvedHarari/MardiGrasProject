@@ -241,17 +241,12 @@ h5 {
   }
 }
 .container-index {
-  /* background-size: cover; */
-  /* background-repeat: no-repeat; */
-  /* height: 100vh; */
-  /* padding: 100px; */
   margin-bottom: 50px;
   z-index: 8;
 }
 
 .h1Home {
   font-family: "Henny Penny";
-  font-size: 100px;
   margin-top: 125px;
   z-index: 5;
 }
